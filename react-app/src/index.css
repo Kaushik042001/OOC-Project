@@ -1,0 +1,151 @@
+.Page-Container {
+  width: 100%;
+  height: 100%;
+
+}
+/* Your existing .main_header styles */
+.main_header {
+  width: 100%;
+  background: #005393;
+  padding: 10px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+/* Your existing .logo img styles for margin-left */
+.GU_logo img {
+  padding: 0px 0px 0px 40px;
+}
+
+.dropdown1 {
+  margin-left: 20px;
+}
+
+.dropdown2 {
+  margin-left: 940px;
+
+}
+
+.Button-List {
+  padding: 10px;
+}
+
+.Display-Panel {
+  border: 2px solid black;
+  border-radius:'2px';
+  margin: 20px;
+  width: 75%;
+  padding: 20px;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.Main-panel {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.btn btn-primary {
+  margin-top: 10px;
+}
+
+.Login {
+  width: 100%;
+  height: 405px;
+  padding: 5px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.Login-Form {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 10px 5px 5px 5px; /* top, right, bottom, left */
+  height: 370px;
+  width: 400px;
+  padding-left: 30px;
+  padding-top: 20px;
+  background-color: aliceblue;
+}
+
+.Forgot-Password-Link {
+  margin-top: 20px;
+  width: 200px;
+  text-align: left;
+}
+
+
+.Main-Container {
+  margin-top: 0px;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.PC {
+
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 24%;
+  height: 850px;
+  padding: 5px 5px 5px 17px; /* top, right, bottom, left */
+
+}
+
+.Item-Container {
+  width: 74%;
+  height: 850px; /* Set a maximum height for the container */
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 88px;
+  margin-right: 10px;
+  padding: 10px 10px 0px 10px; /* top, right, bottom, left */
+}
+
+.d-flex {
+  float: right;
+  width: 100%;
+  height: 50px;;
+  padding: 2px;
+  margin-top: 0px;
+}
+
+
+.Table-Container {
+  width: 100%;
+  max-height: 750px;
+  padding: 10px;
+  margin-top: 55px;
+  overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+}
+
+
+.Additional-Details-Card  {
+  display: flex;
+  justify-content: space-around; /* or any other value as needed */
+  height: 130px;
+}
+
+.card-container {
+  text-align: left; /* Optional: Centers text content */
+  padding: 2px;
+  border: 1px solid #ccc;
+  flex: 1; /* Allows items to expand and fill available space */
+  max-width: 320px; /* Adjust the maximum width as needed */
+}
+
+.card-container div {
+  margin: 5px 5px 5px 5px; /* top, right, bottom, left */
+}
+
